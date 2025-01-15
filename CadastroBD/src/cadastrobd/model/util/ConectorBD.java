@@ -22,7 +22,7 @@ public class ConectorBD {
 	private static String senha = "loja";
 
 	// URL
-	private static final String url = "jdbc:mysql://localhost:1433/loja";
+	private static final String url = "jdbc:sqlserver://localhost:1433;databaseName=loja;encrypt=true;trustServerCertificate=true;";
 
 	/*
 	 * Conexão com banco de dados
